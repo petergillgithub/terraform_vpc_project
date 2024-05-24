@@ -10,7 +10,7 @@ terraform {
 backend "s3" {
     bucket = "terraform-remotestatefile-s3"
     dynamodb_table = "vpc-dynmodb"
-    region = "us-east-1"
+    region = "eu-west-2"
   }
 
 }
